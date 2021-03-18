@@ -1,0 +1,55 @@
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 https://maven.apache.org/xsd/maven-4.0.0.xsd">
+  <modelVersion>4.0.0</modelVersion>
+  <groupId>AutoClips</groupId>
+  <artifactId>AutoClips</artifactId>
+  <version>0.0.1-SNAPSHOT</version>
+  <name>AutoClipGenerator</name>
+  <dependencies>
+  	<dependency>
+  		<groupId>net.bramp.ffmpeg</groupId>
+  		<artifactId>ffmpeg</artifactId>
+  		<version>0.6.2</version>
+  	</dependency>
+  	<dependency>
+  		<groupId>com.googlecode.mp4parser</groupId>
+  		<artifactId>isoparser</artifactId>
+  		<version>1.1.22</version>
+  	</dependency>
+  	<dependency>
+  		<groupId>org.jsoup</groupId>
+  		<artifactId>jsoup</artifactId>
+  		<version>1.13.1</version>
+  	</dependency>
+  	 <dependency>
+       <groupId>org.slf4j</groupId>
+       <artifactId>slf4j-api</artifactId>
+       <version>1.7.5</version>
+   </dependency>
+   <dependency>
+       <groupId>org.slf4j</groupId>
+       <artifactId>slf4j-log4j12</artifactId>
+       <version>1.7.5</version>
+   </dependency>
+   <!-- https://mvnrepository.com/artifact/org.json/json -->
+<dependency>
+    <groupId>org.json</groupId>
+    <artifactId>json</artifactId>
+    <version>20190722</version>
+</dependency>
+<dependency>
+      <groupId>com.google.api-client</groupId>
+      <artifactId>google-api-client</artifactId>
+      <version>1.30.9</version>
+    </dependency>
+    <dependency>
+      <groupId>com.google.apis</groupId>
+      <artifactId>google-api-services-youtube</artifactId>
+      <version>v3-rev20200402-1.30.9</version>
+    </dependency>
+    <dependency>
+    <groupId>com.google.oauth-client</groupId>
+    <artifactId>google-oauth-client-jetty</artifactId>
+    <version>1.30.6</version>
+</dependency>
+  </dependencies>
+</project>
